@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Karla';
+    src: url('./fonts/Karla-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.otf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1C1C1C;
+}
+
+body,
+h1,
+p {
+    margin: 0;
+}
+
+main {
+    width: 550px;
+    height: 550px;
+    padding-inline: 52px;
+    padding-block: 115px;
+    background-color: #1F2937;
+}
+
+.header {
+    font-family: 'Karla';
+    width: 354px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+
+.header>*:first-child {
+    color: #fff;
+}
+
+.header>*:last-child {
+    color: #4ADF86;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin-top: 10px;
+}
+
+.genPass {
+    cursor: pointer;
+    width: 191px;
+    height: 42px;
+    margin-top: 51px;
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.line {
+    width: 446px;
+    border: 1px solid #2F3E53;
+    margin-top: 35px;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.passwords>* {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.passwords>* span {
+    width: 180px;
+    height: 32px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 36px;
+    color: #55F991;
+}
+
+.copyBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-top: 16px;
+}
+
+.copyBtns>* {
+    cursor: pointer;
+    width: 106px;
+    height: 26px;
+    background-color: #065F46;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.copyBtns>*:hover {
+    background-color: #10B981;
+}
+
+.copyBtns>*:focus {
+    border: .4px solid #fff;
+}
