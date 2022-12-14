@@ -6,8 +6,12 @@ const pass2El = document.getElementById('pass2')
 const copy1El = document.getElementById('copy1')
 const copy2El = document.getElementById('copy2')
 
+copy1El.addEventListener('click', copyPass)
+copy2El.addEventListener('click', copyPass)
 
-btnEl.addEventListener('click', function () {
+btnEl.addEventListener('click', generatePassword)
+
+function generatePassword() {
     pass1El.textContent = ""
     pass2El.textContent = ""
     let rand1, rand2 = ""
@@ -21,10 +25,8 @@ btnEl.addEventListener('click', function () {
     }
     pass1El.textContent = text1
     pass2El.textContent = text2
-})
+}
 
 function copyPass(e) {
-    e == 'copy1' ? navigator.clipboard.writeText(pass1El.textContent) : navigator.clipboard.writeText(pass2El.textContent)
+    e.id == 'copy1' ? navigator.clipboard.writeText(pass1El.textContent) : navigator.clipboard.writeText(pass2El.textContent)
 }
-copy1El.addEventListener('click', () => copyPass(copy1El.id))
-copy2El.addEventListener('click', () => copyPass(copy2El.id))
