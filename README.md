@@ -3,7 +3,7 @@
 
 ## :memo: Description
 
-I developed a random password generator. This application generates two random 15-character passwords containing letters, numbers and symbols when the “Generate” button is clicked. In order to use the desired password easily, when the "Copy" buttons under the passwords are pressed, the desired password is copied to the clipboard. So never use an insecure password again.
+I developed a random password generator. This application generates two random 15-character passwords containing letters, numbers and symbols when the “Generate password” button is clicked. In order to use the desired password easily, when the "Copy" buttons under the passwords are pressed, the desired password is copied to the clipboard. So never use an insecure password again.
 
 
 I used Figma file to planning and I designed it according to the desired dimensions. You can test this project by following [this link](https://ebrar-password-generator.netlify.app/).
