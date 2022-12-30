@@ -19,4 +19,4 @@ I used Figma file to planning and I designed it according to the desired dimensi
 
 ## :camera: Screenshot
 
-![password_generator_ss](https://user-images.githubusercontent.com/102172877/207607356-8a841f7f-064c-4565-a3f5-60873be02574.png)
+<img src="https://user-images.githubusercontent.com/102172877/207607356-8a841f7f-064c-4565-a3f5-60873be02574.png" width="500" />
